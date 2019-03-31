@@ -1,0 +1,10 @@
+deploy:
+  provider: s3
+  access_key_id: $ACCESSKEYID
+  secret_access_key:
+      secure: "$SECRETACCESSKEY"
+  bucket: "stubs.koji-cdn.com"
+  region: "us-west-2"
+
+notifications:
+  slack: gometa:iQkwpjzAdA8H07TsqqzoFmRM
