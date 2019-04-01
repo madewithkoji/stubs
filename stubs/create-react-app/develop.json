@@ -1,16 +1,13 @@
 {
-    "develop": {
-      "frontend": {
-        "path": "frontend",
-        "port": 8080,
-        "events": {
-          "started": "[webpack] Frontend server started",
-          "building": "[webpack] Frontend building",
-          "built": "##frontend-built##",
-          "build-error": "[webpack] Frontend build error",
-          "loaded": "[koji] Frontend loaded"
-        },
-        "startCommand": "npm start"
-      }
+  "develop": {
+    "frontend": {
+      "path": "frontend",
+      "port": 3000,
+      "events": {
+        "building": "Starting the development server...",
+        "built": "Compiled successfully!"
+      },
+      "startCommand": "npm start"
     }
   }
+}
