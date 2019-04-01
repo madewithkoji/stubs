@@ -1,0 +1,18 @@
+{
+  "develop": {
+    "frontend": {
+      "path": ".",
+      "port": 8080,
+      "events": {
+        "building": "Project is running at",
+        "built": "Compiled successfully"
+      },
+      "startCommand": "npm start"
+    }
+  },
+  "pages": [{
+      "name": "Index",
+      "route": "/",
+      "path": "."
+  }]
+}

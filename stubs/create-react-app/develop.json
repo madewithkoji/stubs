@@ -9,5 +9,10 @@
       },
       "startCommand": "npm start"
     }
-  }
+  },
+  "pages": [{
+      "name": "Index",
+      "route": "/",
+      "path": "frontend"
+  }]
 }
