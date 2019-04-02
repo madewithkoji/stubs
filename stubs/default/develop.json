@@ -1,0 +1,15 @@
+{
+    "develop": {
+      "frontend": {
+        "path": ".",
+        "port": 8080,
+        "events": {},
+        "startCommand": "npm start"
+      }
+    },
+    "pages": [{
+        "name": "Index",
+        "route": "/",
+        "path": "."
+    }]
+  }
