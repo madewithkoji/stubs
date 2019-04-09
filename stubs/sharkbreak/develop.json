@@ -1,20 +1,20 @@
 {
   "develop": {
     "frontend": {
-      "path": "frontend",
+      "path": ".",
       "port": 1234,
       "events": {
         "started": "npm start",
         "building": "node config.js",
         "built": "Built in",
         "build-error": "npm ERR!"
-        },
+      },
       "startCommand": "npm start"
     }
   },
   "pages": [{
       "name": "Index",
       "route": "/",
-      "path": "frontend"
+      "path": "."
   }]
 }
