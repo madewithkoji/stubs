@@ -13,6 +13,6 @@
   "pages": [{
       "name": "Index",
       "route": "/",
-      "path": "."
+      "path": "src"
   }]
 }
