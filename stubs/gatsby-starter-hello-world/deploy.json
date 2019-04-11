@@ -1,0 +1,12 @@
+{
+    "deploy": {
+      "subdomain": "gatsby.withkoji.com",
+      "frontend": {
+        "output": "public",
+        "commands": [
+          "npm install",
+          "npm run build"
+        ]
+      }
+    }
+  }

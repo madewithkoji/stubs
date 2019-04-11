@@ -1,0 +1,18 @@
+{
+  "develop": {
+    "frontend": {
+      "path": ".",
+      "port": 8000,
+      "events": {
+        "building": "gatsby develop",
+        "built": "Compiled successfully"
+      },
+      "startCommand": "npm run develop"
+    }
+  },
+  "pages": [{
+      "name": "Index",
+      "route": "/",
+      "path": "."
+  }]
+}
